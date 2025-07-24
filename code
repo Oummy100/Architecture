@@ -1,0 +1,15 @@
+# Aller dans le dossier lib (si pas déjà dedans)
+cd lib
+
+# Créer le dossier src et ses sous-dossiers
+mkdir -p src/{controllers,models,services}
+mkdir -p src/screens/{login,home}
+
+# Créer les fichiers vides de base
+touch src/app.dart
+touch ../main.dart
+touch src/controllers/auth_controller.dart
+touch src/models/user_model.dart
+touch src/services/auth_service.dart
+touch src/screens/login/login_screen.dart
+touch src/screens/home/home_screen.dart
